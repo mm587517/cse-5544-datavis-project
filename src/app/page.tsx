@@ -48,6 +48,15 @@ export default function Home() {
         night: "https://public.tableau.com/views/accidents-south-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
       },
     },
+    {
+      name: 'West',
+      data: {
+        morning: "https://public.tableau.com/views/accidents-west-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        afternoon: "https://public.tableau.com/views/accidents-west-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        evening: "https://public.tableau.com/views/accidentes-west-evening/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        night: "https://public.tableau.com/views/accidents-west-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
+      },
+    },
   ];
 
 
