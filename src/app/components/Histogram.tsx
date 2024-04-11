@@ -17,14 +17,13 @@ interface Region {
     data: RegionData;
 }
 
-export default function HeatMap() {
+export default function Histogram() {
     const regions: Region[] = [
         {
             name: 'Midwest',
             data: {
                 morning:
-                    'https://public.tableau.com/views/accidents-midwest-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-                // "https://prod-useast-b.online.tableau.com/t/jiang2880f22abf550a/views/Book1/Dashboard1"
+                    "https://public.tableau.com/views/accidents-midwest-morning/Sheet1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
                 afternoon:
                     'https://public.tableau.com/views/accidents-midwest-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
                 evening:
@@ -64,13 +63,13 @@ export default function HeatMap() {
             name: 'West',
             data: {
                 morning:
-                    'https://public.tableau.com/views/accidents-west-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
+                    "https://public.tableau.com/views/accidents-west-morning/Sheet1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
                 afternoon:
-                    'https://public.tableau.com/views/accidents-west-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
+                    "https://public.tableau.com/views/accidents-west-afternoon/Sheet1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
                 evening:
-                    'https://public.tableau.com/views/accidentes-west-evening/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
+                    "https://public.tableau.com/views/accidentes-west-evening/Sheet1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
                 night:
-                    'https://public.tableau.com/views/accidents-west-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
+                    "https://public.tableau.com/views/accidents-west-night/Sheet22?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
             },
         },
     ];

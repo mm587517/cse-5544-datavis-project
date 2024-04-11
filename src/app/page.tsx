@@ -1,4 +1,5 @@
 import HeatMap from './components/Heatmap';
+import Histogram from './components/Histogram';
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <h1 className='text-3xl text-red-600 font-bold p-6'>
           US Crashes Throughout 2023
         </h1>
-        <HeatMap />
+        <Histogram />
       </div>
     </div>
   );
