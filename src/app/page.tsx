@@ -42,10 +42,10 @@ export default function Home() {
     {
       name: 'South',
       data: {
-        morning: 'https://public.tableau.com/views/accidents-midwest-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-        afternoon: 'https://public.tableau.com/views/accidents-midwest-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-        evening: 'https://public.tableau.com/views/accidents-midwest-evening/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-        night: 'https://public.tableau.com/views/accidents-midwest-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
+        morning: "https://public.tableau.com/views/accidents-south-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        afternoon: "https://public.tableau.com/views/accidents-south-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        evening: "https://public.tableau.com/views/accidents-south-evening/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        night: "https://public.tableau.com/views/accidents-south-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
       },
     },
   ];
