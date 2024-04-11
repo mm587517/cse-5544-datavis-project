@@ -32,10 +32,10 @@ export default function Home() {
     {
       name: 'Northeast',
       data: {
-        morning: 'https://public.tableau.com/views/accidents-midwest-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-        afternoon: 'https://public.tableau.com/views/accidents-midwest-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-        evening: 'https://public.tableau.com/views/accidents-midwest-evening/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
-        night: 'https://public.tableau.com/views/accidents-midwest-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link',
+        morning: "https://public.tableau.com/views/accidents-northeast-morning/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        afternoon: "https://public.tableau.com/views/accidents-northeast-afternoon/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        evening: "https://public.tableau.com/views/accidents-northeast-evening/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        night: "https://public.tableau.com/views/accidents-northeast-night/Sheet2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
 
       },
     },
